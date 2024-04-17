@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    color: rgb(180, 180, 240);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding: 30px 20px;
+    margin:0 auto;
+    width: 95%;
+}
+
+header{
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(180, 180, 240);
+
+}
+
+header .container .logo{
+width: 20%;
+}
+
+header .container nav{
+width: 80%;
+display: flex;
+justify-content: flex-end;
+}
+
+
+header .container nav ul{
+width: 40%;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+header .container nav ul li{
+padding: 10px;
+border: 1px solid rgb(180, 180, 240);
+border-radius: 10px;
+}
+
+
+header .container nav ul li a{
+  color:rgb(180, 180, 240);
+}
+
+
+
+
+#Templates{
+  width: 100%;
+}
+
+#Templates .container span{
+    width: 50%;
+   display: inline-block;
+   margin-top: 10px;
+   line-height: 25px;
+}
+
+
+#Downloads{
+    width: 100%;
+}
+
+
+#Downloads .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#Downloads .container .downloadCards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#Downloads .container .downloadCards .downloadCard{
+width: 22%;
+overflow: hidden;
+}
+
+#Downloads .container .downloadCards .downloadCard .cardImage{
+   width: 100%;
+ }
+
+
+ #Downloads .container .downloadCards .downloadCard .cardImage img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  
+#Downloads .container .downloadCards .downloadCard .cardContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+   
+}
+
+
+ 

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.container{
+  padding: 35px 15px;
+}
+
+
+header{
+  width: 100%;
+background-color: rgb(95 208 95);
+font-size: 20px;
+
+}
+
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+header .container .logo{
+  width: 30%;
+}
+
+
+header .container nav{
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+header .container nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+
+#AliveTemplate{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+
+}
+
+#AliveTemplate .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#AliveTemplate .container .smallTemplate{
+  background-color: rgb(101, 101, 197);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+
+#Team{
+  width: 100%;
+  height: 150px;
+  background-color:  rgb(95 208 95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+#Team span{
+  font-style: italic;
+
+}
+
+
+
+#Members{
+  width: 100%;
+  padding: 30px 0px;
+}
+
+
+#Members .container{
+ width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#Members .container .membersContent{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+#Members .container .membersContent h1{
+  text-transform: uppercase;
+}
+
+
+
+
+#Members .container .membersCards{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#Members .container .membersCards .memberCard{
+  width: 21%;
+  text-align: center;
+  padding: 30px;
+}
+
+.memberCard:nth-child(1) {
+  background-color: #db8f8f;
+}
+
+.memberCard:nth-child(2) {
+  background-color: #abdfab;
+}
+
+.memberCard:nth-child(3) {
+  background-color: #adade7; 
+}
+
+.memberCard:nth-child(4) {
+  background-color: #f7f7b9;
+}
+
+#Members .container .membersCards .memberCard p{
+
+}
